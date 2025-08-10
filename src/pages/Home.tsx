@@ -15,7 +15,14 @@ const Home: React.FC = () => (
           Apple Force Touchpad Tool
         </Link>
       </li>
-      {/* Add more tools here as needed */}
+      <li>
+        <Link
+          to="/raster-generator"
+          className="block w-full px-6 py-4 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 transition-colors text-lg text-center font-semibold"
+        >
+          Touchpad Raster Generator Tool
+        </Link>
+      </li>
     </ul>
   </div>
 );
